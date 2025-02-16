@@ -1,16 +1,111 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Architecture</title>
+    <link rel="stylesheet" href="styles.css">
+	<style>
+		body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 1100px;
+    background: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Image Container Styling */
+.imageContainer {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.imageContainer img {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+td {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+}
+
+/* Column Widths */
+.imageColumn {
+    width: 200px;
+}
+
+.textColumn {
+    width: 600px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Image Styling */
+.imageColumn img {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+}
+
+	</style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <div class="container">
+        <h1>Architecture Through Time</h1>
+        
+        <div class="imageContainer">
+            <img src="architecture.jpg" alt="Architectural Marvel">
+        </div>
 
+        <table>
+            <tr>
+                <td class="imageColumn">
+                    <img src="building1.jpg" alt="Building 1">
+                </td>
+                <td class="textColumn">
+                    Architecture is the art and science of designing buildings and structures, shaping the environment in which we live.
+                </td>
+                <td class="imageColumn">
+                    <img src="building2.jpg" alt="Building 2">
+                </td>
+            </tr>
+            <tr>
+                <td class="imageColumn">
+                    <img src="temple.jpg" alt="Ancient Temple">
+                </td>
+                <td class="textColumn">
+                    From ancient temples to modern skyscrapers, architecture reflects cultural evolution and technological advancements.
+                </td>
+                <td class="imageColumn">
+                    <img src="skyscraper.jpg" alt="Modern Skyscraper">
+                </td>
+            </tr>
+        </table>
+    </div>
 </body>
-
 </html>
+
